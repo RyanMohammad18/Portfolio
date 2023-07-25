@@ -1,9 +1,9 @@
 import React from "react";
-import PageHeaderContent from "../../components/pageHeader/Index";
+
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 import { FaDownload,FaFacebook,FaLinkedin,FaEnvelope,FaGithub } from "react-icons/fa";
-
+import myimage from "../../Images/1.png";
 import "./style.scss";
 import About from "../about/Index";
 import Skills from "../skills/Index";
@@ -24,7 +24,7 @@ const Homes = () => {
     <>
       <section id="home" className="home">
         <div className="photo">
-          <img src="./src/Images/1.png" alt="image" className="image" />
+          <img src={myimage} alt="image" className="image" />
         </div>
         <div className="home_text-wrapper">
           <br />
