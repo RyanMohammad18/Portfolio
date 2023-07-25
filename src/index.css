@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62%;
+  height: 100%;
+}
+
+body {
+  background-color: #454545;
+  height: 100%;
+}
+#root {
+  height: 100%;
+}

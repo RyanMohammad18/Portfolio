@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dashed aqua;
+
+    h2{
+        margin-top: 5%;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        line-height: 1rem;
+        text-transform: capitalize;
+        display: flex;
+        color: aquamarine;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    span{
+        svg{
+            color: aliceblue;
+        }
+    }
+}

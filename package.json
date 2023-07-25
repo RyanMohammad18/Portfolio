@@ -1,0 +1,41 @@
+{
+  "name": "my-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@syncfusion/ej2-react-progressbar": "^22.1.36",
+    "rc-progress": "^3.4.2",
+    "react": "^18.2.0",
+    "react-animated-progress-bar": "^1.1.2",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.4",
+    "react-particles": "^2.10.1",
+    "react-router-dom": "^6.14.1",
+    "react-simple-animate": "^3.5.2",
+    "react-tsparticles": "^2.10.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "sass": "^1.63.6",
+    "styled-components": "^6.0.4",
+    "tsparticles": "^2.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "vite": "^4.4.0"
+  }
+}

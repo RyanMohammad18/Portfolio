@@ -1,0 +1,290 @@
+
+.skills {
+
+  width: 100%;
+  display: flex;
+  
+ 
+
+  &_content_wrapper {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+    width: 5% ;
+    flex-grow: 1;
+    margin-left: 5%;
+
+    h1 {
+        display: flex;
+        width: 50%;
+        color: indianred;
+        font-size: 20px;
+        letter-spacing: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px dashed darkgrey;
+      }
+
+    
+
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+
+      text-transform: capitalize;
+      display: flex;
+      color: aquamarine;
+      
+
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &_content_wrapper_2 {
+    display: flex;
+    
+    margin: auto;
+    margin-right: 10px;
+    flex-direction: column;
+    flex: 1;
+
+
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 20px;
+    width: 30%;
+    
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+
+      text-transform: capitalize;
+      display: flex;
+      color: aquamarine;
+      z-index: 1;
+      
+
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+  }
+}
+.progressbar-wrapper {
+  display: inline-block;
+  width: 100px;
+  flex-direction: row;
+  margin: 20px;
+  p {
+    color: azure;
+    font-size: 17px;
+    letter-spacing: 0.5rem;
+  }
+}
+
+
+.skills_content_wrapper_2{
+  p {
+    display: flex;
+    width: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px dashed darkgrey;
+    z-index: 1;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+
+  .skills{
+    width: 100%;
+    display: contents;
+    align-content: center;
+    justify-content: center;
+
+    &_content_wrapper {
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+    
+      flex-direction: row;
+      width: 100% ;
+      flex-grow: 1;
+      margin-left: 0%;
+
+      h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &_content_wrapper_2 {
+      width: 100%;
+      margin: 0%;
+      gap: 0px;
+    }
+
+  }
+  .card{
+    p{
+      font-size: large;
+      text-transform: capitalize;
+      letter-spacing: 0;
+    }
+  }
+  
+
+  .progressbar-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    flex-direction: column;
+    
+    margin: 20px;
+    
+  }
+
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+
+  .skills{
+    width: 100%;
+    display: contents;
+    align-content: center;
+    justify-content: center;
+
+    &_content_wrapper {
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+    align-content: end;
+      flex-direction: row;
+      width: 100% ;
+      flex-grow: 1;
+      margin-left: 0%;
+
+      h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &_content_wrapper_2 {
+      width: 100%;
+      margin: 0%;
+      gap: 0px;
+    }
+
+  }
+  .card{
+    p{
+      font-size: large;
+      text-transform: capitalize;
+      letter-spacing: 0;
+    }
+  }
+  
+
+  .progressbar-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    flex-direction: column;
+    
+    margin: 20px;
+    
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+
+  .skills{
+    width: 100%;
+    display: contents;
+
+    &_content_wrapper {
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+    
+      flex-direction: row;
+      width: 100% ;
+      flex-grow: 1;
+      margin-left: 0%;
+
+      h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &_content_wrapper_2 {
+      width: 100%;
+      margin: 0%;
+      gap: 0px;
+    }
+
+  }
+  .card{
+    p{
+      font-size: large;
+      text-transform: capitalize;
+      letter-spacing: 0;
+    }
+  }
+  
+
+  .progressbar-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    flex-direction: column;
+    
+    margin: 20px;
+    
+  }
+}

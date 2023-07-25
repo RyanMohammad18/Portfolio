@@ -1,0 +1,180 @@
+body{
+    background-color: #202A44;
+}
+
+.about{
+   
+    &_content{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+
+        &_personalWrapper, &_serviceWrapper{
+            width: 50%;
+
+        }
+
+        &_personalWrapper{
+            padding-left: 30px;
+            h3{
+                margin-bottom: 10px;
+                font-size: 2.5rem;
+                font-weight: 500;
+                color: aqua;
+
+            }
+            h3.personalInfoHeaderText{
+                padding-top: 20px;
+
+            }
+            p{
+                color: white;
+                font-size: 1.8rem;
+                line-height: 1.65;
+                padding-bottom: 20px;
+                border-bottom: 1px dashed cornsilk;
+            }
+            ul > li{
+                line-height: 1rem;
+                margin-bottom: 15px;
+
+                span.title,span.value{
+                    font-size: 18px;
+                    font-weight: 700;
+                    letter-spacing: 0.5px;
+                    border-bottom: 2px solid aqua;
+                    position: relative;
+                    display: inline-block;
+                    margin-right: 16px;
+                    padding-bottom: 5px;
+                    color: white;
+
+            
+                }
+                span.value{
+                    border: none;
+                }
+            }
+        }
+
+        &_serviceWrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &_innerContent{
+                width: 350px;
+                height: 350px;
+                background: radial-gradient(180px,whitesmoke,transparent 80%);
+                position: relative;
+                border-radius: 50%;
+                border: 1.5px solid aqua;
+                animation: rotation 10s linear 1s infinite;
+
+                div:nth-child(1){
+                    position: absolute;
+                    top: -9%;
+                    left: 41%;
+                   
+
+                }
+                div:nth-child(2){
+                    position: absolute;
+                    right: -8%;
+                    top: 41.5%;
+                    
+                }
+                div:nth-child(3){
+                    position: absolute;
+                    bottom: -10%;
+                    left: 41%;
+                    
+                }
+                div:nth-child(4){
+                    position: absolute;
+                    left: -9%;
+                    top: 41%;
+                    
+                }
+                div:nth-child(5){
+                    position: absolute;
+                    left: 20%;
+                    top: 30%;
+                    font-size: 20px;
+                    
+                    padding: 20px;
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+@keyframes rotation {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .about_content{
+        flex-direction: column;
+
+        &_personalWrapper, &_serviceWrapper{
+            
+            width: 100%;
+
+        }
+
+        &_serviceWrapper{
+            margin: 10px 0px;
+            &_innerContent{
+                width: 250px;
+                height: 250px;
+                background: radial-gradient(120px,whitesmoke,transparent 120%);
+
+
+
+                div:nth-child(1){
+                    position: absolute;
+                    top: -11%;
+                    left: 38%;
+                   
+
+                }
+                div:nth-child(2){
+                    position: absolute;
+                    right: -11%;
+                    top: 40%;
+                    
+                }
+                div:nth-child(3){
+                    position: absolute;
+                    bottom: -12%;
+                    left: 40%;
+                    
+                }
+                div:nth-child(4){
+                    position: absolute;
+                    left: -12%;
+                    top: 40%;
+                    
+                }
+                div:nth-child(5){
+                    position: absolute;
+                    left: 15%;
+                    top: 25%;
+                    font-size:20px;
+                    
+                    padding: 20px;
+                }
+                
+            }
+        }
+    }
+
+}

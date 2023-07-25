@@ -1,0 +1,176 @@
+.portfolio {
+
+  background-color: darkcyan;
+  &_content {
+    padding: 20px;
+    width: 100%;
+
+    &_filter {
+      display: inline-block;
+      margin: 0 auto;
+      border-radius: 25px;
+      border: 1px dashed darkcyan;
+
+      li {
+        font-size: 16px;
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        color: aquamarine;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        overflow: hidden;
+        transition: all 0.5s ease;
+
+        &.active {
+          background: black;
+          color: antiquewhite;
+          font-weight: 600;
+          border-radius: 25px;
+        }
+      }
+    }
+
+    &_cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: auto;
+      gap: 1 rem;
+      margin-top: 10px;
+      width: 100%;
+      overflow: hidden;
+
+      &_item {
+        height: 366px;
+        cursor: pointer;
+        position: relative;
+        margin: 10px;
+
+        &:hover .overlay {
+          opacity: 0.8;
+          height: 40%;
+          margin: auto;
+          margin-bottom: 0.5%;
+        }
+
+        &_img-wrapper {
+          height: 100%;
+          width: 100%;
+
+          a {
+            height: 100%;
+            width: 100%;
+            padding: 5px;
+
+            img {
+              height: inherit;
+              padding: 20px;
+              border: 1px solid aquamarine;
+
+              width: 100%;
+            }
+          }
+        }
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: 0.5s ease;
+          background-color: aqua;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -10%);
+          text-align: center;
+
+          p {
+            color: black;
+            margin: 0px;
+            font-size: 3rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingEffect 3s steps(50, end);
+          }
+          .img-btn {
+            cursor: pointer;
+            margin-top: 10px;
+            padding: 10px 7px;
+            font-size: 2rem;
+            background: transparent;
+            margin-left: 30px;
+
+            border: 1.5px solid rgb(237, 7, 7);
+            color: black;
+            border-radius: 4px;
+            font-weight: 500;
+
+            &:hover{
+              background-color: brown;
+              color: white;
+             
+            }
+          
+          }
+          .github-btn {
+            cursor: pointer;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 10px 10px;
+            font-size: 2rem;
+            background: transparent;
+
+            border: 1.5px solid black;
+            color: black;
+            border-radius: 4px;
+            font-weight: 500;
+
+            &:hover{
+              background-color: black;
+              color: white;
+            }
+
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 550px){
+
+    .portfolio_content .portfolio_content_cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+      }
+
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    .portfolio_content .portfolio_content_cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+      }
+
+
+}
+
+
+
+@keyframes typingEffect {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
