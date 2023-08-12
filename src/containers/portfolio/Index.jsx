@@ -45,16 +45,44 @@ import imagebasic2 from "../../Images/basic_website/demo3.png"
 import imageresp1 from "../../Images/responsive/resp2.png"
 import imageresp2 from "../../Images/responsive/resp3.png"
 import imageresp3 from "../../Images/responsive/resp4.png"
+import imagemovie1 from "../../Images/movie_website/movie1.jpg"
+import imagemovie2 from "../../Images/movie_website/movie2.jpg"
+import imagemovie3 from "../../Images/movie_website/movie3.jpg"
+import imagemovie4 from "../../Images/movie_website/movie4.jpg"
+
+import imageuserprofile1 from "../../Images/user_profile/userprofile1.jpg"
+import imageuserprofile2 from "../../Images/user_profile/userprofile2.jpg"
+
+import imageprof1 from "../../Images/prof_website/prof1.jpg"
+import imageprof2 from "../../Images/prof_website/prof2.jpg"
+import imageprof3 from "../../Images/prof_website/prof3.jpg"
+import imageprof4 from "../../Images/prof_website/prof4.jpg"
+import imageprof5 from "../../Images/prof_website/prof5.jpg"
+import imageprof6 from "../../Images/prof_website/prof6.jpg"
+
 import { FaImages,FaGithub } from "react-icons/fa";
 import "./style.scss";
 
 const portfolioData = [
   {
     id: 3,
-    name: "Book App",
-    image: [imageone, imageten, imageeleven, imagetwelve, imagethirteen],
-    link: "https://github.com/RyanMohammad18/Basic_Book_Management_with_CRUD",
+    name: "Movie Website Clone",
+    image: [imagemovie1, imagemovie2, imagemovie3,imagemovie4],
+    link: "https://github.com/RyanMohammad18/Movie_Project_ReactJS",
   },
+  {
+    id: 3,
+    name: "User Profile ",
+    image: [imageuserprofile1,imageuserprofile2],
+    link: "https://github.com/RyanMohammad18/User_Profile_React",
+  },
+  {
+    id: 3,
+    name: "Professional Based Website ",
+    image: [imageprof1,imageprof2,imageprof3,imageprof4,imageprof5,imageprof6],
+    link: "https://github.com/RyanMohammad18/Professional_website_Frontend",
+  },
+
   {
     id: 2,
     name: "Blood Donation",
@@ -87,9 +115,27 @@ const portfolioData = [
   },
   {
     id: 3,
+    name: "Responsive Website",
+    image: [imagenine,imageresp1,imageresp2,imageresp3],
+    link: "https://github.com/RyanMohammad18/Basic_Responsive_Website",
+  },
+  {
+    id: 3,
+    name: "Basic Website",
+    image: [imageeight, imagebasic1,imagebasic2],
+    link: "https://github.com/RyanMohammad18/Basic_Website",
+  },
+  {
+    id: 3,
     name: "Country App",
     image: [imagefive, imagecountry1,imagecountry2],
     link: "https://github.com/RyanMohammad18/CountryApp_ReactJS",
+  },
+  {
+    id: 3,
+    name: "Book App",
+    image: [imageone, imageten, imageeleven, imagetwelve, imagethirteen],
+    link: "https://github.com/RyanMohammad18/Basic_Book_Management_with_CRUD",
   },
   {
     id: 3,
@@ -103,18 +149,8 @@ const portfolioData = [
     image: [imageseven, imageblog8],
     link: "https://github.com/RyanMohammad18/Blog_Post_with_ReactJS",
   },
-  {
-    id: 3,
-    name: "Basic Website",
-    image: [imageeight, imagebasic1,imagebasic2],
-    link: "https://github.com/RyanMohammad18/Basic_Website",
-  },
-  {
-    id: 3,
-    name: "Responsive Website",
-    image: [imagenine,imageresp1,imageresp2,imageresp3],
-    link: "https://github.com/RyanMohammad18/Basic_Responsive_Website",
-  },
+ 
+ 
 ];
 
 const filterData = [

@@ -33,18 +33,45 @@ import imagetech3 from "../../Images/tech/ecom3.png";
 import imagetech4 from "../../Images/tech/ecom5.png";
 import imagetech5 from "../../Images/tech/ecom6.png";
 import imagetech6 from "../../Images/tech/ecom7.png";
+import imagemovie1 from "../../Images/movie_website/movie1.jpg"
+import imagemovie2 from "../../Images/movie_website/movie2.jpg"
+import imagemovie3 from "../../Images/movie_website/movie3.jpg"
+import imagemovie4 from "../../Images/movie_website/movie4.jpg"
 import imagecountry1 from "../../Images/country/country2.png";
 import imagecountry2 from "../../Images/country/country3.png";
+
+import imageuserprofile1 from "../../Images/user_profile/userprofile1.jpg"
+import imageuserprofile2 from "../../Images/user_profile/userprofile2.jpg"
+
+import imageprof1 from "../../Images/prof_website/prof1.jpg"
+import imageprof2 from "../../Images/prof_website/prof2.jpg"
+import imageprof3 from "../../Images/prof_website/prof3.jpg"
+import imageprof4 from "../../Images/prof_website/prof4.jpg"
+import imageprof5 from "../../Images/prof_website/prof5.jpg"
+import imageprof6 from "../../Images/prof_website/prof6.jpg"
 
 import "./style.scss";
 
 const portfolioData = [
   {
     id: 3,
-    name: "Book App",
-    image: [imageone, imageten, imageeleven, imagetwelve, imagethirteen],
-    link: "https://github.com/RyanMohammad18/Basic_Book_Management_with_CRUD",
+    name: "Movie Website Clone",
+    image: [imagemovie1, imagemovie2, imagemovie3,imagemovie4],
+    link: "https://github.com/RyanMohammad18/Movie_Project_ReactJS",
   },
+  {
+    id: 3,
+    name: "User Profile ",
+    image: [imageuserprofile1,imageuserprofile2],
+    link: "https://github.com/RyanMohammad18/User_Profile_React",
+  },
+  {
+    id: 3,
+    name: "Professional Based Website ",
+    image: [imageprof1,imageprof2,imageprof3,imageprof4,imageprof5,imageprof6],
+    link: "https://github.com/RyanMohammad18/Professional_website_Frontend",
+  },
+
   {
     id: 2,
     name: "Blood Donation",
@@ -74,6 +101,12 @@ const portfolioData = [
     name: "Tech E-commerce",
     image: [imagefour, imagetech2, imagetech3, imagetech4, imagetech5,imagetech6],
     link: "https://github.com/RyanMohammad18/Tech_Ecommerce_Website_flask_python",
+  },
+  {
+    id: 3,
+    name: "Book App",
+    image: [imageone, imageten, imageeleven, imagetwelve, imagethirteen],
+    link: "https://github.com/RyanMohammad18/Basic_Book_Management_with_CRUD",
   },
  
 ];

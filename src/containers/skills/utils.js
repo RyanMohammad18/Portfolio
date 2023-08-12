@@ -39,6 +39,10 @@ export const skillsData =[
         lable:"Back End",
         data: [
             {
+                skillName:"NodeJs",
+                percentage:"80",
+            },
+            {
                 skillName:"Django",
                 percentage:"70",
             },
@@ -46,10 +50,7 @@ export const skillsData =[
                 skillName:"Flask",
                 percentage:"60",
             },
-            {
-                skillName:"NodeJs",
-                percentage:"10",
-            },
+           
         ],
     },
     {
