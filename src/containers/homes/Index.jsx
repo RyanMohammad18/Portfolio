@@ -10,7 +10,7 @@ import Skills from "../skills/Index";
 import Resume from "../resume/Index";
 
 import Contact from "../contact/Index";
-import resume from "../../Images/1.pdf";
+import resume from "../../Images/2.pdf";
 import PortfolioHome from "../portfolio_home/Index";
 import Footer from "../footer/Index";
 
